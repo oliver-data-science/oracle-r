@@ -1,4 +1,4 @@
-FROM container-registry.oracle.com/os/oraclelinux:latest
+FROM centos:centos:latest
 
 RUN yum -y update && yum -y install R
 
