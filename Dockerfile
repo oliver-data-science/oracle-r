@@ -1,4 +1,4 @@
-FROM centos:centos:latest
+FROM centos:latest
 
 RUN yum -y update && yum -y install R
 
